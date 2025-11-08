@@ -1,7 +1,5 @@
 package com.lakshya.ArrayDataStructure;
 
-import com.lakshya.ExceptionHandling.IllegalInputException;
-
 public class StaticArray<T> {
 
     // define the properties
@@ -14,7 +12,7 @@ public class StaticArray<T> {
     public StaticArray(int capacity){
         // define the condition
         if(capacity<=0){
-            throw new IllegalInputException("Capacity must be positive");
+            throw new IllegalStateException("Capacity must be positive");
         }
         this.arr = (T[]) new Object[capacity];
         this.capacity = capacity;
