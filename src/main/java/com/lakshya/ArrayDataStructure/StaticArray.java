@@ -68,7 +68,7 @@ public class StaticArray<T> {
     // define the Get() methord
     public T get(int index){
         // define the condition
-        if(index<0 && index>=size){
+        if(index<0 || index>=size){
             throw new IllegalStateException("Index out of bound");
         }
         return arr[index];
@@ -77,7 +77,7 @@ public class StaticArray<T> {
     // define the set() methord
     public void set(int index,T data){
         // define the condition
-        if(index<0 && index>=size){
+        if(index<0 || index>=size){
             throw new IllegalStateException("Index out of bound");
         }
         arr[index] = data;
