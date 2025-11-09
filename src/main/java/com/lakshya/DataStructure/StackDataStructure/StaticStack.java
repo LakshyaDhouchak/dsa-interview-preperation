@@ -21,7 +21,7 @@ public class StaticStack<T> {
     public void push(T element){
         // define the condition
         if(size == capacity){
-            throw new IllegalStateException("Stack is Full. Can't add more element")
+            throw new IllegalStateException("Stack is Full. Can't add more element");
         }
         arr[size] = element;
         size++;
