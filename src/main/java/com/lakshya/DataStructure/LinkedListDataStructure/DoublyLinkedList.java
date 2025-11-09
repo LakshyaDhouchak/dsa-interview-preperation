@@ -20,9 +20,9 @@ public class DoublyLinkedList<T> {
         BEFORE, AFTER
     }
 
-    Node<T> head = null;
-    Node<T> tail = null;
-    int size;
+    private Node<T> head = null;
+    private Node<T> tail = null;
+    private int size = 0;
 
     // CREATE (insert at tail)
     public void create(T data) {
@@ -110,7 +110,7 @@ public class DoublyLinkedList<T> {
                 }
 
                 size++;
-                return;     // IMPORTANT
+                return;     
             }
 
             temp = temp.next;
