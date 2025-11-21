@@ -23,6 +23,20 @@ The implementations are organized into folders based on the data structure type.
 
 ---
 
+---
+
+## 💻 Algorithm Implementations
+
+Algorithms are grouped by their category.
+
+| Directory | Description | Included Implementations |
+| :--- | :--- | :--- |
+| **`GraphAlgorithms`** | Essential traversal methods for graphs. | `Bfs.java` (Breadth-First Search), `Dfs.java` (Depth-First Search) |
+| **`SearchingAlgorithms`** | Methods for finding elements within data structures. | `BinarySearch.java`, `LinearSearch.java` |
+| **`SortingAlgorithms`** | Implementations of various comparison-based sorting techniques. | `BubbleSort.java`, `InsertionSort.java`, `MergeSort.java`, `QuickSort.java`, `SelectionSort.java`, `CommonOperation.java` |
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
