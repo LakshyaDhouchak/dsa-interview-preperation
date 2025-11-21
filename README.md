@@ -66,4 +66,5 @@ Contributions, including bug fixes, new implementations, or optimizations, are h
 If you are looking for additional resources to prepare for DSA interviews, check out this video: [Best DSA Course - Clear Any FAANG Interview!](https://www.youtube.com/watch?v=rZ41y93P2Qo).
 
 
-http://googleusercontent.com/youtube_content/0
+## ⚖️ License
+This project is licensed under the **MIT License** - see the [LICENSE.md](LICENSE.md) file for details.
