@@ -16,7 +16,7 @@ public class DoublyLinkedList<T> {
     }
 
     // Enum
-    static enum choice {
+    public static enum choice {
         BEFORE, AFTER
     }
 

@@ -14,7 +14,7 @@ public class CircularLinkedList<T> {
     }
 
     // Enum for insert choice
-    static enum choice {
+    public static enum choice {
         BEFORE, AFTER
     }
 

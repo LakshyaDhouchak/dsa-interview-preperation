@@ -14,7 +14,7 @@ public class SinglyLinkedList<T> {
     }
 
     // enum for BEFORE / AFTER insertion
-    static enum Choice {
+    public static enum Choice {
         BEFORE, AFTER
     }
 
